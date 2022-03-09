@@ -14,7 +14,7 @@ module.exports = {
   
   title: '原启',  // 设置网站标题
   description : 'Adroi',
-  base : '/Chanzhehong/Demo/docs/README.md',
+  base : '',
   themeConfig : {
     repo: 'vuejs/vuepress',
     // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
@@ -49,36 +49,35 @@ module.exports = {
         }
       ]
     },
-    // sidebar: [
-    //   {
-    //     title: '帮助文档',
-    //     collapsable: false,
-    //   },
-    //   {
-    //     collapsable: false,
-    //     children: [
-    //      '/view/install',
-    //     ],
-    //     nextLink: true,
-    //   },
-    //   {
-    //     collapsable: false,
-    //     children: [
-    //      '/view/features',
-    //     ],
-    //     nextLink: true,
-    //   },
-    //   {
-    //     title: 'Group 1 ',
-    //     path: '/view/problem',
-    //     sidebarDepth: 1,
-    //     children: [
-    //       '/view/problem',
-    //     ],
-    //   }
-    // ]
+    sidebar: [
+      {
+        title: '帮助文档',
+        collapsable: false,
+      },
+      {
+        collapsable: false,
+        children: [
+         '/view/install',
+        ],
+        nextLink: true,
+      },
+      {
+        collapsable: false,
+        children: [
+         '/view/features',
+        ],
+        nextLink: true,
+      },
+      {
+        title: 'Group 1 ',
+        path: '/view/problem',
+        sidebarDepth: 1,
+        children: [
+          '/view/problem',
+        ],
+      }
+    ]
 
-    // },
+    },
     sidebarDepth : 2
   }
-}
