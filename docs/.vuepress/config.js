@@ -14,7 +14,7 @@ module.exports = {
   
   title: '原启',  // 设置网站标题
   description : 'Adroi',
-  base : '/Chanzhehong/Test/',
+  base : '/Chanzhehong/Demo/docs/README.md',
   themeConfig : {
     repo: 'vuejs/vuepress',
     // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
